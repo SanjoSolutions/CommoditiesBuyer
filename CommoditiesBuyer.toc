@@ -1,4 +1,4 @@
-## Title: CommoditiesBuyer
+## Title: Commodities Buyer
 ## Interface: 100002
 ## SavedVariables: CommoditiesBuyerMaximumUnitPrices
 
