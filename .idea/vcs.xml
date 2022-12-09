@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Boolean" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Coroutine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Float" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Function" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Object" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/PackageInitialization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dependencies/Set" vcs="Git" />
   </component>
 </project>
