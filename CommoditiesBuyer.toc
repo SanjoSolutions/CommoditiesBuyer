@@ -1,0 +1,15 @@
+## Title: CommoditiesBuyer
+## Interface: 100002
+## SavedVariables: CommoditiesBuyerMaximumUnitPrices
+
+dependencies/Coroutine/Coroutine.lua
+dependencies/Set/Set.lua
+dependencies/PackageInitialization/PackageInitialization.lua
+dependencies/Boolean/Boolean.lua
+dependencies/Object/Object.lua
+dependencies/Float/Float.lua
+dependencies/Array/Array.lua
+dependencies/Function/Function.lua
+dependencies/Events/Events.lua
+dependencies/Math/Math.lua
+CommoditiesBuyer.lua
