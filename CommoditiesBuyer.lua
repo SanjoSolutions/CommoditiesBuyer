@@ -11,7 +11,6 @@ function AddOn.buy(itemID, quantity, maximumUnitPrice)
         local _, event = Events.waitForOneOfEvents({ 'COMMODITY_PURCHASE_SUCCEEDED', 'COMMODITY_PURCHASE_FAILED' })
         if event == 'COMMODITY_PURCHASE_SUCCEEDED' then
           AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.BuyButton:Enable()
-          return
         elseif event == 'COMMODITY_PURCHASE_FAILED' then
           print('Purchase failed.')
           AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.BuyButton:Enable()
@@ -24,6 +23,7 @@ function AddOn.buy(itemID, quantity, maximumUnitPrice)
       print('Purchase failed. Maybe the purchase quantity is higher than number of items available in the auction house.')
       AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.BuyButton:Enable()
     end
+    AuctionHouseFrame.CommoditiesBuyFrame.ItemList.RefreshFrame.RefreshButton:onClickHandler()
   end)
 end
 
