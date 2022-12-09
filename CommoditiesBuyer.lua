@@ -104,6 +104,12 @@ function AddOn.patchAuctionHouse()
     AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.TotalPrice.labelText = 'Maximum Total Price'
     AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.TotalPrice:SetLabel(AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.TotalPrice.labelText)
 
+    local originalCallback = AuctionHouseFrame.CommoditiesBuyFrame.ItemList.selectionCallback
+    AuctionHouseFrame.CommoditiesBuyFrame.ItemList:SetSelectionCallback(function (searchResultInfo)
+      maximumPrice:SetAmount(searchResultInfo.unitPrice)
+      return originalCallback(searchResultInfo)
+    end)
+
     isAuctionHousePatched = true
   end
 end
