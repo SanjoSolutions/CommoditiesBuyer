@@ -89,6 +89,7 @@ function AddOn.patchAuctionHouse()
       if maximumUnitPrice then
         maximumPrice:SetAmount(maximumUnitPrice)
       else
+
         maximumPrice:Clear()
       end
     end)
