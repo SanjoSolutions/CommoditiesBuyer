@@ -1,8 +1,8 @@
 {
-  "name": "CommoditiesBuyer",
+  "name": "@sanjo-addons/commodities-buyer",
   "dependencies": {
-    "Library": "SanjoSolutions/LuaLibrary#v0.4.0",
-    "Coroutine": "SanjoSolutions/LuaCoroutine#v2.0.0",
-    "Events": "SanjoSolutions/LuaEvents#v2.0.0"
+    "@sanjo-addons/library": "SanjoSolutions/LuaLibrary#v0.4.0",
+    "@sanjo-addons/coroutine": "SanjoSolutions/LuaCoroutine#v2.0.0",
+    "@sanjo-addons/events": "SanjoSolutions/LuaEvents#v2.0.0"
   }
 }
