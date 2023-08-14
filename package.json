@@ -1,0 +1,8 @@
+{
+  "name": "CommoditiesBuyer",
+  "dependencies": {
+    "Library": "SanjoSolutions/LuaLibrary#v0.4.0",
+    "Coroutine": "SanjoSolutions/LuaCoroutine#v1.1.0",
+    "Events": "SanjoSolutions/LuaEvents#v1.1.0"
+  }
+}

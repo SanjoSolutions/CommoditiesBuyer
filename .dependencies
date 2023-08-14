@@ -1,9 +1,0 @@
-- path: libs/Library
-  url: https://github.com/SanjoSolutions/LuaLibrary.git
-  tag: main
-- path: libs/Coroutine
-  url: https://github.com/SanjoSolutions/LuaCoroutine.git
-  tag: v1.0.0
-- path: libs/Events
-  url: https://github.com/SanjoSolutions/LuaEvents.git
-  tag: v1.0.0
