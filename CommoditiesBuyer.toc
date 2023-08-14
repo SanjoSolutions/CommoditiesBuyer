@@ -1,16 +1,7 @@
 ## Title: Commodities Buyer
-## Version: 1.1.0
-## Interface: 100002
+## Version: 1.2.0
+## Interface: 100007
 ## SavedVariables: CommoditiesBuyerMaximumUnitPrices
+## Dependencies: Library, Coroutine, Events
 
-dependencies/Coroutine/Coroutine.lua
-dependencies/Set/Set.lua
-dependencies/PackageInitialization/PackageInitialization.lua
-dependencies/Boolean/Boolean.lua
-dependencies/Object/Object.lua
-dependencies/Float/Float.lua
-dependencies/Array/Array.lua
-dependencies/Function/Function.lua
-dependencies/Events/Events.lua
-dependencies/Math/Math.lua
 CommoditiesBuyer.lua

@@ -1,5 +1,8 @@
 local AddOn = {}
 
+local Coroutine = Library.retrieve('Coroutine', '^1.0.0')
+local Events = Library.retrieve('Events', '^1.0.0')
+
 function AddOn.buy(itemID, quantity, maximumUnitPrice)
   Coroutine.runAsCoroutine(function()
     AuctionHouseFrame.CommoditiesBuyFrame.BuyDisplay.BuyButton:Disable()
